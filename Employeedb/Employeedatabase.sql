@@ -39,6 +39,12 @@ insert into incentives values(101,"12/03/2004",50000); insert into incentives va
  
 insert into project values(10,"bng","chatbot"); insert into project values(40,"delhi","ml model"); insert into project values(50,"bombay","blockchain"); insert into project values(30,"chennai","stocks"); insert into project values(80,"mysore","android app"); insert into Assingnedto values(101,10,"devops"); insert into Assingnedto values(201,40,"sde"); insert into Assingnedto values(301,50,"manager"); insert into Assingnedto values(401,30,"jpa"); insert into Assingnedto values(501,80,"pa"); 
 
+select * from dept;  
+select * from employee;  
+select * from incentives; 
+select * from project;
+select * from Assingnedto; 
+
 SELECT E.emp_id
 FROM Employee E
 JOIN Works_On W ON E.emp_id = W.emp_id
